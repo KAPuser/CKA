@@ -14,7 +14,7 @@ public class MavenType {
 		File f=new File("E:\\Java\\Aravinth\\ck\\type.txt");
 	     
 		System.out.println(f.createNewFile());	
-		
+		System.out.println("Chennai branch");
 		String s="Greens Technologyy";
 		System.out.println("Chennai Branch");
 		FileUtils.write(f, s);
